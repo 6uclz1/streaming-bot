@@ -3,7 +3,7 @@ import logo from "./../../logo.svg";
 
 const style: React.CSSProperties = {
   display: "flex",
-  width: "80px",
+  width: "64px",
 };
 
 const Icon = () => {
