@@ -21,7 +21,7 @@ function CommentWindow() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       // TODO: APIを使用した形に変更する
-      const commentText: any = generateDummyText;
+      const commentText: any = generateDummyText();
       const newMessage = {
         text: commentText,
       };

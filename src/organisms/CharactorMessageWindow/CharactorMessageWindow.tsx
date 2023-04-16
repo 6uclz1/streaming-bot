@@ -8,7 +8,7 @@ const CharactorMessageWindow: any = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       // TODO: APIを使用した取得方法に変更する
-      const responseText = generateDummyText;
+      const responseText = generateDummyText();
       setResponse(responseText);
     }, 10000);
     return () => clearInterval(intervalId);
