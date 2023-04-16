@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.background-box {
+  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-box {
+  /* background: #ffffff; */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* opacity: 0.5; */
+  height: 92%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 12px;
+  box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contents-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 1000px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
+  margin: 10;
+  flex: 2;
+  border-radius: 12px;
+  box-shadow: inset 10px 10px 25px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px 0px 10px 0px;
+}
+
+.contents-title {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  margin: 10;
+  flex: 1;
+  border-radius: 12px;
+  margin: 36px 36px 0px 36px;
+  /* box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.3); */
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.charactor-box {
+  height: -webkit-fill-available;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 10;
+  flex: 1;
+  border-radius: 12px;
+  margin: 36px;
 }
 
-.App-link {
-  color: #61dafb;
+.left-box {
+  display: flex;
+  flex: 2;
+  margin: 36px 36px 36px 36px;
+  flex-direction: column;
+}
+.right-box {
+  display: flex;
+  flex: 1;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-@keyframes App-logo-spin {
+.animate {
+  animation-name: chat-message-appear;
+  animation-duration: 1s;
+}
+
+@keyframes chat-message-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
