@@ -33,11 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload Coverage
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
