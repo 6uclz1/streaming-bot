@@ -22,11 +22,12 @@ function Charactor() {
     const interval = setInterval(() => {
       setCurrentImageIndex((currentImageIndex + 1) % images.length);
     }, images[currentImageIndex].displayTime*Math.random());
-
     return () => clearInterval(interval);
+    // eslint-disable-next-line
   }, [currentImageIndex]);
 
   return (
+    // eslint-disable-next-line
     <img style={style} src={images[currentImageIndex].src} alt="animated image" />
   );
 }
