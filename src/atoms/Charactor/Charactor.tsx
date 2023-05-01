@@ -3,11 +3,11 @@ import charactor from "./charactor.png";
 import charactor2 from "./charactor2.png";
 import "../../App.css";
 
+/** モデルの画像サイズによって適宜変更してください */
 const style: React.CSSProperties = {
   position: "absolute",
-  top: "60px",
-  left: "1160px",
-  height: "934px",
+  top: "5%",
+  left: "70%",
   objectFit: "cover",
 };
 

@@ -9,8 +9,9 @@ const style: React.CSSProperties = {
   boxShadow: "5px 5px 15px 0 rgba(0, 0, 0, 0.3)",
   textShadow: "1px 1px 2px #808080",
   wordBreak: "break-all",
-  height: "80px",
+  height: "15%",
   color: "#333",
+  margin: "inherit",
 };
 
 interface AnimatedTextProps {

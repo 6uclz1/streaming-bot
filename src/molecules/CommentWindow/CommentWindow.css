@@ -1,0 +1,3 @@
+.CommentWindow::-webkit-scrollbar {
+  display: none;
+}

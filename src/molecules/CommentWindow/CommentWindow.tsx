@@ -1,17 +1,16 @@
 import ChatMessage from "../Comment/Comment";
 import { generateDummyText } from "../../services/Comment/Comment";
 import React, { useRef, useEffect, useState } from "react";
+import "./CommentWindow.css"
 
 const style: React.CSSProperties = {
   display: "flex",
   flexDirection: "column",
   overflowY: "auto",
   height: "-webkit-fill-available",
-  maxHeight: "540px",
   padding: "10px",
   margin: "10px",
   borderRadius: "32px",
-  // Firefox
   scrollbarWidth: 'none',
   msOverflowStyle: 'none'
 };
@@ -48,7 +47,7 @@ function CommentWindow() {
   }, [messages]);
 
   return (
-    <div style={style} ref={chatRef}>
+    <div className={'CommentWindow'} style={style} ref={chatRef}>
       {messages.map((message: any, index: any) => (
         <ChatMessage key={index} text={message.text} />
       ))}

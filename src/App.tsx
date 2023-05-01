@@ -11,10 +11,8 @@ function App() {
       <Background>
         <div className="main-box">
           <div className="left-box">
-            <div className="contents-box">
-              <Title />
-              <CommentWindow />
-            </div>
+            <Title />
+            <CommentWindow />
             <CharactorMessageWindow />
           </div>
           <div className="right-box"></div>
