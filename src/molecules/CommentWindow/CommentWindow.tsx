@@ -11,6 +11,9 @@ const style: React.CSSProperties = {
   padding: "10px",
   margin: "10px",
   borderRadius: "32px",
+  // Firefox
+  scrollbarWidth: 'none',
+  msOverflowStyle: 'none'
 };
 
 function CommentWindow() {
