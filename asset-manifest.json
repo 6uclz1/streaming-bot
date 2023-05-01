@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/streaming-bot/static/css/main.7ab5e5a4.css",
-    "main.js": "/streaming-bot/static/js/main.f53e6757.js",
+    "main.css": "/streaming-bot/static/css/main.461d8b6f.css",
+    "main.js": "/streaming-bot/static/js/main.45028a4d.js",
     "static/js/787.3d81b53e.chunk.js": "/streaming-bot/static/js/787.3d81b53e.chunk.js",
     "static/media/charactor.png": "/streaming-bot/static/media/charactor.2e36b70742db81f5119c.png",
-    "static/media/charactor2.png": "/streaming-bot/static/media/charactor2.adf94ce6f5aaa42b1ca0.png",
+    "static/media/charactor2.png": "/streaming-bot/static/media/charactor2.05988cc45258b5c62cbf.png",
     "static/media/logo.svg": "/streaming-bot/static/media/logo.193714bffb88b5fce37116cfd1c11e8e.svg",
     "index.html": "/streaming-bot/index.html",
-    "main.7ab5e5a4.css.map": "/streaming-bot/static/css/main.7ab5e5a4.css.map",
-    "main.f53e6757.js.map": "/streaming-bot/static/js/main.f53e6757.js.map",
+    "main.461d8b6f.css.map": "/streaming-bot/static/css/main.461d8b6f.css.map",
+    "main.45028a4d.js.map": "/streaming-bot/static/js/main.45028a4d.js.map",
     "787.3d81b53e.chunk.js.map": "/streaming-bot/static/js/787.3d81b53e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ab5e5a4.css",
-    "static/js/main.f53e6757.js"
+    "static/css/main.461d8b6f.css",
+    "static/js/main.45028a4d.js"
   ]
 }
